@@ -1,4 +1,4 @@
-# lexer-lexnum-template
+# lexer-lexnum-00template
 
 数値を字句解析するプログラムのテンプレート
 
