@@ -1,4 +1,4 @@
-# lexer-lexnum-00template
+# lexer-lexnum-template
 
 数値を字句解析するプログラムのテンプレート
 
@@ -20,5 +20,12 @@
 
 # テスト
 
-  * `test.sh` で差分がないことを確認する．
-  * `test.in` に入力と正解の出力を書く．
+## 既存のテストスイートでテストする
+
+  * このディレクトリの親ディレクトリに次のテスト用リポジトリをcloneする```
+    https://github.com/kut-info-compiler/lexer-lexnum-00test.git```
+  * `test.sh` を実行して全てのテストが `OK` になることを確認する
+
+## テストを追加する
+  * `../lexer-lexnum-00test/test.in` にテストを追加する
+  * 追加したテストをgithubにpushする
