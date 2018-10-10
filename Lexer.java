@@ -67,8 +67,8 @@ public class Lexer {
 		/* 現在注目している文字 (先頭から p 文字目)  */
 		int p = start;
 
-		/* 最後の受理状態のラベルとその時何文字目まで読んだか */
-		String acceptType = Token.TYPE_ERR;
+		/* 最後の受理状態のマーカとその時何文字目まで読んだか */
+		String acceptMarker = Token.TYPE_ERR;
 		int acceptPos = start;
 
 		/* 現在の状態 */
@@ -88,7 +88,7 @@ public class Lexer {
 			currentState = nextState;
 		}
 		
-		return new Token(acceptType, start, acceptPos - start);
+		return new Token(acceptMarker, start, acceptPos - start);
 	}
 	
 	public static void main(String[] args) {
