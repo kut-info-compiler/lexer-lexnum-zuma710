@@ -27,5 +27,4 @@
   * `test.sh` を実行して全てのテストが `OK` になることを確認する
 
 ## テストを追加する
-  * `../lexer-lexnum-00test/test.in` にテストを追加する
-  * 追加したテストをgithubにpushする
+  * `lexer-lexnum-00test`リポジトリの`README.md`を読んでください．
